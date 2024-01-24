@@ -96,5 +96,5 @@ def jjjjjk(message):
         bot.send_video(message.chat.id,"https://telegra.ph/file/79cebda50d2de9568bca2.mp4",reply_to_message_id=message.message_id)
     elif "صلوات على محمد" in message.text:
         bot.send_video(message.chat.id,"https://telegra.ph/file/a30123edf271fabdf2080.mp4",reply_to_message_id=message.message_id)
-
+print('running ... ')
 bot.infinity_polling()
